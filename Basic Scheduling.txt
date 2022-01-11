@@ -1,0 +1,5 @@
+When is the delivery date?
+on day 21
+
+Which tasks could be delayed without delaying the schedule?
+Tasks: F,G,H,E,D
