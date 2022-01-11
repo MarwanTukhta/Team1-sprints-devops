@@ -1,0 +1,33 @@
+
+Estimations
+
+Effort: 504 working hours
+Duration: 34 working days (272 working hours)
+Cost: 35184$ (+552$ monthly)
+
+
+Assumption list:
+
+Duration: 
+- Initiation takes 2 days
+- Planning takes 4 days
+- Designing phase takes 2 weeks
+- a developer spends 30 hours a week coding, with 3 developers this should be an effort of 90 hours a week
+- assuming that the developing stage requires roughly 180 hours two weeks and two days should be enough with a 2 day margin for error
+- assumping that the testing phase takes 5 days
+- project review takes a day
+
+
+Cost: 
+- average developer cost is 42$/hr
+- average UI Designer is 43$/hr
+- average QA tester is 28$/hr
+- average Maneger cost is 64$/hr
+
+- AWS subscription for the infrasturcer is roughly 552$ using AWS SIMPLE SIMPLE MONTHLY CALCULATOR
+
+assuming we have
+developers: 3
+UI Designers: 1
+QA Testers: 2
+Maneger: 1
