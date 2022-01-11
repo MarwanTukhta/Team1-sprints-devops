@@ -6,7 +6,7 @@ It is two months behind the schedule as the task with the ID 3 is only 50% done 
 
 By the end of the project, by how much will it be over/under budget?
 It will be over budget by 500k$
-Cost Variance (CV) = EV – AC = 3700 – 4200 = -500k$
+Cost Variance (CV) = EV – AC = 3700 – 4200 = -500k $
 
 
 Calculate:
@@ -15,10 +15,13 @@ Task 2 completion = 100%
 Task 3 completion = 50%
 
 Percentage of completion = (100 + 100 + 50) / 3 = 83.33% 
-PV = 2200 k$
-EV = PV * % OF COMPLETION = 2200 * 83.33% = 1833.26 k$
-AC = 2200 k$
-Cost Variance (CV) = EV – AC = 1833.26 – 2200 = -366.74 k$
-Schedule Variance (SV) = EV - PV = 1833.26 – 2200 = -366.74 k$
+PV = 2200k $
+EV = PV * % OF COMPLETION = 2200 * 83.33% = 1833.26k $
+AC = 2200k $
+BAC = 3700k $
+
+Cost Variance (CV) = EV – AC = 1833.26 – 2200 = -366.74k $
+Schedule Variance (SV) = EV - PV = 1833.26 – 2200 = -366.74k $
 Cost Performance Index (CPI) = EV / AC = 1833.26 / 2200 = 0.8333
 Schedule Performance Index (SPI) = EV / PV = 1833.26 / 2200 = 0.8333
+Estimate At Completion (EAC) = BAC / CPI = 4440k $
