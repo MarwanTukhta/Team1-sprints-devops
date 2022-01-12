@@ -1,0 +1,8 @@
+1-	Developer team
+2-	Head of the department
+3-	UI/UX Design team
+4-	Quality Assurance team
+5-	Customers
+6-	Client
+7-	Sponsor
+8-	Stores
