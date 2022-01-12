@@ -1,0 +1,15 @@
+Definition of done:
+
+-Code is up to standards
+-Code is reviewed
+-Code is implemented with unit Test-Driven Development
+-Code is tested with 100 percent test automation
+-Code is integrated and documented
+
+
+Definition of ready:
+
+-The story is divded into tasks
+-The story is doable
+-The story can be done within the time frame
+-The story is ethical
