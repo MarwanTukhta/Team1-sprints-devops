@@ -2,4 +2,4 @@ When is the delivery date?
 on day 19
 
 Which tasks could be delayed without delaying the schedule?
-Tasks: F,G,H,E,D
+Tasks: C, E, F
