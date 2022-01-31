@@ -25,7 +25,7 @@
     - Innovation as Google updates it weekly
 
 
-## The most pillar difference between each cloud providers 
+## The most pillar difference between each cloud providers ## 
 
 1. Amazon Web Services (AWS):
 AWS is the most affordable one of them and it has the most diverse services
@@ -35,3 +35,17 @@ Microsoft Azure is the most reliable and fast one of them
 
 3. Google Cloud:
 Google's strength lies in big data processing tools, artificial intelligence (AI) and machine learning initiatives
+
+
+
+## Resources ## 
+
+- https://www.boardinfinity.com/blog/top-cloud-service-providers-in-2021-aws-microsoft-azure-google-cloud-platform/
+
+- https://www.otava.com/blog/the-top-10-use-cases-for-cloud-computing/
+
+- https://sados.com/blog/aws-benefits-and-drawbacks/
+
+- https://www.hp.com/us-en/shop/tech-takes/top-5-benefits-microsoft-azure
+
+- https://www.c-sharpcorner.com/article/google-cloud-top-advantages-and-why-you-should-use-it-in-2020/
