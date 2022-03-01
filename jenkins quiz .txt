@@ -1,0 +1,39 @@
+01) What is Jenkins used for?
+Jenkins is used to build and test your product continuously, so developers can continuously integrate changes into the build. Jenkins is the most popular open source CI/CD tool on the market today and is used in support of DevOps
+
+02) 
+
+What is Jenkins agent? 
+A Jenkins agent is an executable, residing on a node, that is tasked by the controller to run a job.
+
+What is Jenkins executor (Build Executor)?
+Allows a build to run on a node/agent
+
+03) Explain Jenkins master-slave architecture?
+The Jenkins master acts to schedule the jobs, assign slaves, and send builds to slaves to execute the 
+
+04) Mention three security mechanisms used by Jenkins to authenticate users?
+- Default Mechanism - Choose an internal database to store user data and credentials. 
+- Authenticate against a Lightweight Directory Access Protocol (LDAP) server.
+- Use the authentication mechanism used by the application server upon which it is deployed.
+
+05) Mention ways that a job can be run/scheduled in Jenkins?
+- Peroidically
+- Github hook
+- After other project is done building
+
+06) How can we restart Jenkins server (Hint it's an endpoint we visit in the browser)?
+visit ${jenkins_url}/restart
+
+07) Install jenkins with docker image.
+
+08) Install role based authorization plugin.
+
+09) Create new user.
+
+10) Create read role and assign it to the new user
+
+11) Create free style project and link it to private git repo(inside it create directory and create file with "hello world").
+
+	
+Role-based Authorization Strategy
