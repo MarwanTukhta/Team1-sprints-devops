@@ -3,14 +3,14 @@ Jenkins is used to build and test your product continuously, so developers can c
 
 02) 
 
-What is Jenkins agent? 
-A Jenkins agent is an executable, residing on a node, that is tasked by the controller to run a job.
+- What is Jenkins agent?
+<br/>A Jenkins agent is an executable, residing on a node, that is tasked by the controller to run a job.
 
-What is Jenkins executor (Build Executor)?
-Allows a build to run on a node/agent
+- What is Jenkins executor (Build Executor)?
+<br/>Allows a build to run on a node/agent
 
 03) Explain Jenkins master-slave architecture?
-The Jenkins master acts to schedule the jobs, assign slaves, and send builds to slaves to execute the 
+<br/>The Jenkins master acts to schedule the jobs, assign slaves, and send builds to slaves to execute the 
 
 04) Mention three security mechanisms used by Jenkins to authenticate users?
 - Default Mechanism - Choose an internal database to store user data and credentials. 
@@ -23,7 +23,7 @@ The Jenkins master acts to schedule the jobs, assign slaves, and send builds to 
 - After other project is done building
 
 06) How can we restart Jenkins server (Hint it's an endpoint we visit in the browser)?
-visit ${jenkins_url}/restart
+<br/>visit ${jenkins_url}/restart
 
 07) Install jenkins with docker image.
 ![Screenshot 2022-03-01 150845](https://user-images.githubusercontent.com/56633651/156166772-8f2f3ff9-095e-4adb-874d-8b08b476f366.png)
