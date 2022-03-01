@@ -26,14 +26,18 @@ The Jenkins master acts to schedule the jobs, assign slaves, and send builds to 
 visit ${jenkins_url}/restart
 
 07) Install jenkins with docker image.
+![Screenshot 2022-03-01 150845](https://user-images.githubusercontent.com/56633651/156166772-8f2f3ff9-095e-4adb-874d-8b08b476f366.png)
 
 08) Install role based authorization plugin.
 
+![Screenshot 2022-03-01 150903](https://user-images.githubusercontent.com/56633651/156166807-b487d791-21c4-4ede-b4b4-b83e607b69de.png)
+
 09) Create new user.
+![Screenshot 2022-03-01 150909](https://user-images.githubusercontent.com/56633651/156166821-83d83321-fefa-436f-bb74-60a12a0c7ee2.png)
 
 10) Create read role and assign it to the new user
+![Screenshot 2022-03-01 150915](https://user-images.githubusercontent.com/56633651/156166843-0af32967-fd90-4217-98ec-e0b52931a52f.png)
+![Screenshot 2022-03-01 150922](https://user-images.githubusercontent.com/56633651/156166863-5812f064-5456-401a-898a-22ba7808a761.png)
 
 11) Create free style project and link it to private git repo(inside it create directory and create file with "hello world").
-
-	
-Role-based Authorization Strategy
+![Screenshot 2022-03-01 150928](https://user-images.githubusercontent.com/56633651/156166879-18e225eb-c7cd-4c70-83a1-bff8206d6e1b.png)
