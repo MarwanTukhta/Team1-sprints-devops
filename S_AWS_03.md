@@ -1,15 +1,15 @@
 1. Create Company databases on RDS Mysql and connect to it (create employee table and department table)
-```
-SHOW TABLES;
-+----------------------------+
-| Tables_in_Company          |
-+----------------------------+
-| department                 |
-| employee                   |
-+----------------------------+
-2 rows in set (0.03 sec)
+    ```
+    SHOW TABLES;
+    +----------------------------+
+    | Tables_in_Company          |
+    +----------------------------+
+    | department                 |
+    | employee                   |
+    +----------------------------+
+    2 rows in set (0.03 sec)
 
-```
+    ```
 2. Create s3 bucket upload files and then expose it publicly (access it from your web browser)
 ![Screenshot 2022-03-20 095357](https://user-images.githubusercontent.com/56633651/159152302-512d486e-111a-4ffa-9e9f-1f7ff03ca778.png)
 ![image](https://user-images.githubusercontent.com/56633651/159152552-3133044a-34a9-48b5-839c-08a8154dfd45.png)
