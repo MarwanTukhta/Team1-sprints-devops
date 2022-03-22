@@ -1,0 +1,56 @@
+AWSTemplateFormatVersion: 2010-09-09
+Parameters:
+  PrivateSubnetCIDR:
+    Type: String
+    Default: 10.192.20.0/24
+  PublicSubnetCIDR:
+    Type: String
+    Default: 10.192.11.0/24
+Resources:
+  EC2VPC3G6Z9:
+    Type: "AWS::EC2::VPC"
+    Properties: {}
+  EC2S2SWLG:
+    Type: "AWS::EC2::Subnet"
+    Properties:
+      VpcId: !Ref EC2VPC3G6Z9
+    CidrBlock: PublicSubnetCIDR
+  EC2S1HWHE:
+    Type: "AWS::EC2::Subnet"
+    Properties:
+      VpcId: !Ref EC2VPC3G6Z9
+    CidrBlock: PrivateSubnetCIDR
+  EC2IG48FSQ:
+    Type: "AWS::EC2::InternetGateway"
+    Properties: {}
+  EC2NG4GGZX:
+    Type: "AWS::EC2::NatGateway"
+    Properties: {}
+  EC2RT29MYY:
+    Type: "AWS::EC2::RouteTable"
+    Properties: {}
+  EC2SG43VLC:
+    Type: "AWS::EC2::SecurityGroup"
+    Properties:
+      SecurityGroupEgress:
+        - CidrIp: 127.0.0.1/32
+          IpProtocol: "-1"
+      VpcId: !Ref EC2VPC3G6Z9
+  EC2SG40WLU:
+    Type: "AWS::EC2::SecurityGroup"
+    Properties:
+      VpcId: !Ref EC2VPC3G6Z9
+  EC2IIFMO:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      NetworkInterfaces:
+        - SubnetId: !Ref EC2S2SWLG
+      SecurityGroupIds:
+        - !Ref EC2SG40WLU
+  EC2I313M9:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      NetworkInterfaces:
+        - SubnetId: !Ref EC2S1HWHE
+      SecurityGroupIds:
+        - !Ref EC2SG43VLC
