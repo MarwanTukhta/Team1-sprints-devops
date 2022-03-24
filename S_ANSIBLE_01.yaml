@@ -43,3 +43,12 @@
       path:  /app/nexus/bin/nexus.rc
       regexp: '^run_as_user="nexus"'
       line: run_as_user="nexus"
+
+    - name: Register service with chkconfig system
+      service: name=nexus enabled=yes
+
+    - name: Start service nexus
+      service:
+        name: nexus
+        state: started
+
