@@ -1,0 +1,45 @@
+---
+- hosts: all
+  remote_user: ubuntu
+  become: yes
+  tasks:
+  - name: Update apt repositories cache
+    apt:
+      update_cache: yes
+
+  - name: Install a list of packages
+    apt:
+      pkg:
+      - wget 
+      - java-1.8.0-openjdk
+
+  - name: Create user nexus
+    user:
+      name: nexus
+      state: presemt
+
+  - name: Create a directory if it does not exist
+    file:
+      path: /app
+      state: directory
+      owner: "nexus"
+      group: "nexus"
+
+  - name: go into app directory
+    command: "cd /app"
+
+  - name: Download nexus
+    get_url:
+      url: https://download.sonatype.com/nexus/3/latest-unix.tar.gz
+      dest: nexus.tar.gz
+
+  - name: Extract nexus.tar.gz
+    unarchive:
+      src: nexus.tar.gz
+      dest: nexus
+
+  - name: Uncomment run_as_user
+    ansible.builtin.lineinfile:
+      path:  /app/nexus/bin/nexus.rc
+      regexp: '^run_as_user="nexus"'
+      line: run_as_user="nexus"
